@@ -1,0 +1,52 @@
+name: Architecture proposal
+description: Propose a bounded M9+ domain or architecture decision.
+title: "[Architecture]: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: PlainJournalPro is in planning stage. Describe verified facts separately from future assumptions.
+  - type: input
+    id: scope
+    attributes:
+      label: Scope
+      description: Name the domain, data owner, or cross-service boundary involved.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and invariants
+      description: Explain the problem and the facts that must remain true.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed design
+      description: Describe ownership, transaction boundaries, failure behavior, and compatibility.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: List meaningful alternatives and why they are not preferred.
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification plan
+      description: State how the proposal can be tested or falsified within the declared resource boundary.
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Boundary confirmation
+      options:
+        - label: This proposal does not claim planned capability is already implemented.
+          required: true
+        - label: This proposal does not copy PlainJournal source code or Git history.
+          required: true
