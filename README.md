@@ -1,5 +1,9 @@
 # PlainJournalPro
 
+[![Repository gates](https://github.com/NoctilumeDev/PlainJournalPro/actions/workflows/repository-gates.yml/badge.svg)](https://github.com/NoctilumeDev/PlainJournalPro/actions/workflows/repository-gates.yml)
+[![Status](https://img.shields.io/badge/status-planned%20%2F%20design--only-6f624b)](#当前状态)
+[![License](https://img.shields.io/badge/license-Apache--2.0-4f7668)](./LICENSE)
+
 > 素简记 M9+ 多商户平台演进项目。
 
 [PlainJournal](https://github.com/NoctilumeDev/PlainJournal) 已完成 M0-M8 自营 B2C
